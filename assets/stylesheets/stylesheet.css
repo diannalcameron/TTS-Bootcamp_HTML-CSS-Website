@@ -108,3 +108,19 @@ textarea {
     width: 27px;
     margin-top: 10px;
 }
+
+.dianna-image {
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+
+.contact-form {
+    float: left;
+}
+
+div, .flex-container {
+    display: flex;
+    padding: 10px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+  }
