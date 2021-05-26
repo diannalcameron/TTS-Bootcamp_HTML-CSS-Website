@@ -12,8 +12,9 @@ header {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     background-color:rgb(240, 237, 228);
+    width: 100%;
 }
 
 footer {
@@ -36,7 +37,8 @@ h1 {
 }
 
 nav {
-    z-index: 100;
+    width: 100%;
+    position: absolute;
 }
 
 ul {
@@ -45,9 +47,12 @@ ul {
     background-color: rgb(172, 156, 140);
 }
 
-li {
+li, li.left {
     float: left;
-    
+}
+
+li.right {
+    float: right;
 }
 
 li a {
@@ -60,7 +65,8 @@ li a {
 
 li a:hover {
     text-decoration: none;
-    color:rgb(223, 131, 218)
+    color:rgb(223, 131, 218);
+    text-shadow: 2px 2px rgb(37, 35, 32);
 }
 
 .logo {
@@ -74,5 +80,32 @@ li a:hover {
     text-align: center;
     margin-top: 11px;
     margin-left: 10px;
-    position: fixed;
+}
+
+li.search {
+    position: relative;
+}
+
+.search-icon {
+    width: 20px;
+    background-color:rgb(114, 105, 91);
+    padding: 8px;
+    margin-bottom: 2px;
+}
+
+p {
+    padding: 20px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    margin-top: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+#shopping-cart {
+    padding: 10px;
+    width: 27px;
+    margin-top: 10px;
 }
