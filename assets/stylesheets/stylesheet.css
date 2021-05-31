@@ -90,6 +90,12 @@ li a:hover {
     position: relative;
 }
 
+h1 {
+    animation: backInDown;
+    animation-duration: 1.5s;
+
+}
+
 p {
     padding: 20px;
     line-height: 1.5em;
