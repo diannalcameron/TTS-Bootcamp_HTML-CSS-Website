@@ -66,6 +66,7 @@ footer {
     padding: 20px;
     z-index: 100;
     position: relative;
+    border-top: 12px solid rgb(236, 80, 127)
 }
 
 li a:hover {
@@ -73,8 +74,14 @@ li a:hover {
     text-shadow: 3px 3px rgb(236, 80, 127);
 }
 
-.body-background {
-    background-color: rgb(209, 201, 187);
+.navbar {
+    border-bottom: 12px solid rgb(236, 80, 127);
+}
+
+.main-body {
+    background-color:rgb(236, 234, 226);
+    border-left: 12px solid white;
+    border-right: 12px solid white;
 }
 
 .logo {
@@ -87,12 +94,6 @@ p {
     padding: 20px;
     line-height: 1.5em;
     letter-spacing: .02em;
-}
-
-#shopping-cart {
-    padding: 10px;
-    width: 27px;
-    margin-top: 10px;
 }
 
 .dianna-image {
