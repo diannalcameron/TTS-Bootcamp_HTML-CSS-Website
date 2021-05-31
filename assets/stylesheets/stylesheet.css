@@ -37,8 +37,6 @@ header {
     text-align: center;
     box-sizing: border-box;
     padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
     padding-bottom: 10px;
     z-index: 90;
     background-color: rgb(240, 237, 228);
@@ -78,10 +76,12 @@ li a:hover {
     border-bottom: 12px solid rgb(236, 80, 127);
 }
 
+.navbar-custom {
+    background-color:rgb(170, 162, 151)
+}
+
 .main-body {
     background-color:rgb(236, 234, 226);
-    border-left: 12px solid white;
-    border-right: 12px solid white;
 }
 
 .logo {
@@ -103,8 +103,8 @@ p {
 }
 
 .dianna-image {
-    float: left;
-    padding: 0px 20px 0px 0px;
+    float: center;
+    padding: 20px;
 }
 
 .contact-form {
