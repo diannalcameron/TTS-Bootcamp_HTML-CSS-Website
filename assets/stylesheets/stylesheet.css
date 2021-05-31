@@ -32,10 +32,34 @@ footer {
     text-align: center;
 } */
 
-h1 {
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    z-index: 90;
+    background-color: rgb(240, 237, 228);
+    border: 12px solid rgb(236, 80, 127);
+    color: rgb(73, 66, 55);
     font-family: 'Luckiest Guy', cursive;
     font-size: 45px;
-    letter-spacing: .1em;;
+    letter-spacing: 0.1em;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    background-color:rgb(236, 234, 226);
+}
+
+footer {
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    font-family: 'Luckiest Guy', cursive;
+    color:rgb(209, 201, 187);
+    background-color: rgb(73, 66, 55);
+    text-align: center;
+    padding: 20px;
+    position: relative;
 }
 
 li a:hover {
@@ -70,10 +94,3 @@ p {
 .contact-form {
     float: left;
 }
-
-div, .flex-container {
-    display: flex;
-    padding: 10px;
-    line-height: 1.5em;
-    letter-spacing: .02em;
-  }
