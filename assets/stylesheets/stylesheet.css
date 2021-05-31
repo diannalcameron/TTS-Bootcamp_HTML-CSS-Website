@@ -35,7 +35,11 @@ footer {
 header {
     position: relative;
     text-align: center;
-    padding: 20px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
     z-index: 90;
     background-color: rgb(240, 237, 228);
     border: 12px solid rgb(236, 80, 127);
@@ -49,6 +53,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     background-color:rgb(236, 234, 226);
+    position: relative;
 }
 
 footer {
@@ -59,6 +64,7 @@ footer {
     background-color: rgb(73, 66, 55);
     text-align: center;
     padding: 20px;
+    z-index: 100;
     position: relative;
 }
 
