@@ -64,8 +64,11 @@ footer {
 
 li a:hover {
     text-decoration: none;
-    color:rgb(223, 131, 218);
-    text-shadow: 2px 2px rgb(37, 35, 32);
+    text-shadow: 3px 3px rgb(236, 80, 127);
+}
+
+.body-background {
+    background-color: rgb(209, 201, 187);
 }
 
 .logo {
