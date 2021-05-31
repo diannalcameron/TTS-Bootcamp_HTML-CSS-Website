@@ -47,7 +47,7 @@ header {
     letter-spacing: 0.1em;
 }
 
-body {
+body, form {
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     background-color:rgb(236, 234, 226);
@@ -84,16 +84,9 @@ li a:hover {
     background-color:rgb(236, 234, 226);
 }
 
-.logo {
-    width: 43px;
-    padding: 8px 8px 8px 20px;
-    position: relative;
-}
-
 h1 {
     animation: backInDown;
     animation-duration: 1.5s;
-
 }
 
 p {
@@ -105,8 +98,4 @@ p {
 .dianna-image {
     float: center;
     padding: 20px;
-}
-
-.contact-form {
-    float: left;
 }
